@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600;700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Comfortaa  ;
+}
+.hero {
+    text-align: center;
+}
+.nav {
+    text-align: center;
+     border-top: 1px black solid;
+     border-bottom:1px black solid ;
+     margin-bottom: 50px;
+     font-size: 16px;
+     width: 1080px;
+     margin-left: auto;
+     margin-right: auto;
+     font-weight: 300;
+ }
+.nav-link {
+    display: inline-block;
+    padding: 10px 25px;
+}
+.nav-link:hover {
+    background: lightgrey;
+    display: inline-block;
+}
+a {
+    color: #333;
+    text-decoration: none;
+    display:inline-block;
+}
+.link:hover {
+    color: tomato;
+}
+.types {
+    color: white;
+    padding: 4px 6px;
+}
+.taomlar {
+    background-color: darkorange;
+}
+.taomlar:hover {
+    background: orange;
+}
+.ichimlik {
+    background: darkblue;
+}
+.ichimlik:hover {
+    background: lightblue;
+}
+
+.desert {
+    background: coral;
+}
+.desert:hover {
+    background: lightcoral;
+}
+
+.salat {
+    background: darkgreen;
+}
+.salat:hover {
+    background: lightgreen;
+}
+
+.pushti-matn {
+    color: tomato;
+    border:1px tomato solid ;
+    font-size: 15px;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.pushti-matn:hover {
+    color: white;
+    background: tomato;
+}
+.barchasi {
+    text-align: center;
+    margin: 5px;
+}
+.main {
+    width: 1080px;
+    margin: 0 auto;
+    font-size: 0;
+}
+.col {
+    width: 360px;
+    display: inline-block;
+    font-size: 14px;
+    display: inline-block;
+    padding: 15px;
+}
+.col img {
+    width: 320px;
+    height: 200px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
